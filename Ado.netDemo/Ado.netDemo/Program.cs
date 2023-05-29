@@ -24,6 +24,7 @@ namespace Ado.netDemo
             };
             AddressBook book = new AddressBook();
             book.AddDataInDatabase(contact);
+            book.GetAllData();
             Console.ReadLine();
 
         }
